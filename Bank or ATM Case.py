@@ -17,7 +17,7 @@ while Trial < 3:
         
         if Input_Pin == Pin[index]:
             print(f"Welcome {User_Name[index]}! You have successfully logged in.")
-            break  # Keluar loop jika login berhasil
+            break  
         else:
             print("PIN Incorrect!")
     else:
