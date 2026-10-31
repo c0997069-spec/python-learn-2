@@ -1,0 +1,19 @@
+# Learn About adding elements to list
+numbers = [5,6,9,10,2,3]
+print(len(numbers))
+print(numbers)
+
+numbers.append(4)
+print(len(numbers))
+print(numbers)
+
+numbers.insert(1,13)
+print(len(numbers))
+print(numbers)
+
+my_list = []
+
+for i in range(5):
+    my_list.append(i+2)
+
+print(my_list)
