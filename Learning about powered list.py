@@ -13,3 +13,8 @@ print(New_list_2)
 my_list_3 = [1,3,4,5,6,7,9,10]
 new_list_3 = my_list_3[3:-1]
 print(new_list_3)
+
+#Del instruction
+my_list_4 = [2,3,4,5,7,8,9,10,25]
+del my_list_4[3:5]
+print(my_list_4)
