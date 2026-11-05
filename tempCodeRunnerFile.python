@@ -1,18 +1,10 @@
-my_list = []
-swapped = True
-num = int(input("How many elements do you want to sort: "))
+#Powered List
+#Coppying some part of the list
+list_1 = [10,9,8,7,6,5]
+New_list = list_1[1:4]
+print(New_list)
 
-for i in range(num):
-    val = float(input("Enter a list element: "))
-    my_list.append(val)
-
-while swapped:
-    swapped = False
-    for i in range(len(my_list) - 1):
-        if my_list[i] > my_list[i + 1]:
-            swapped = True
-            my_list[i], my_list[i + 1] = my_list[i + 1], my_list[i]
-
-print("\nSorted:")
-print(my_list)
-
+#Coppying all part of the list
+List_2 =[1,2,3,4,5,6]
+New_list_2 = List_2[:]
+print(New_list_2)
