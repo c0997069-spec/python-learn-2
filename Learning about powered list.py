@@ -10,3 +10,6 @@ New_list_2 = List_2[:]
 print(New_list_2)
 
 #Slices negative index
+my_list_3 = [1,3,4,5,6,7,9,10]
+new_list_3 = my_list_3[3:-1]
+print(new_list_3)
