@@ -1,3 +1,7 @@
+#bubble sort
+from tracemalloc import start
+
+
 my_list = []
 swapped = True
 num = int(input("How many elements do you want to sort: "))
@@ -15,4 +19,6 @@ while swapped:
 
 print("\nSorted:")
 print(my_list)
+
+
 
