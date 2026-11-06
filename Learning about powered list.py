@@ -31,4 +31,5 @@ largest = my_list_storage[0]
 for i in range(5, len(my_list_storage)):
     if my_list_storage[i] > largest:
         largest = my_list_storage[i]
+print(largest)
 
