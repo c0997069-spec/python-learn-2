@@ -18,3 +18,16 @@ print(new_list_3)
 my_list_4 = [2,3,4,5,7,8,9,10,25]
 del my_list_4[3:5]
 print(my_list_4)
+
+#in and not in operator
+my_list_5 = [0,2,7,1,9]
+print(4 in my_list_5)
+print(6 in my_list_5)
+print(9 in my_list_5)
+
+#program example
+my_list_storage = [22,5,15,8,9,10,7,1,3,2]
+largest = my_list_storage[0]
+for i in range(5, len(my_list_storage)):
+    if my_list_storage[i] > largest:
+        largest = my_list_storage
